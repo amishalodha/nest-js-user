@@ -6,10 +6,7 @@ import { UsersService } from "./users.service";
 export class UserController{
     constructor( private readonly userService:UsersService){}
 
-// @Get()
-// getUsers(){
-//     return 'hello world';
-// }
+
 
 @Post()
 insertUser(
