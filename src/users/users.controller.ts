@@ -17,9 +17,7 @@ insertUser(
 ){
 
   const userId  =this.userService.insertUser(name , email, contact);
-     return {
-        id:userId,
-     };
+     return userId;
 }
 
 
