@@ -25,12 +25,7 @@ export class UsersService {
    updateUser(userId:string, name:string , email:string, contact:number)
    {
      const[targetUser, index] = this.getUserById(userId);
-        
-//      const newUserParams={...targetUser , name , email, contact};
-    
-//     const  newUser = new User(userId , newUserParams.name , newUserParams.email, newUserParams.contact);
-//     this.users[index]= newUser;
-//    return newUser;
+
 const updateUser = {...targetUser};
 
       
